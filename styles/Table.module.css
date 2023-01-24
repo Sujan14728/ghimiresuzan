@@ -1,0 +1,55 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    margin-top: 2rem;
+    width: 80vw;
+    /* border: 1px solid black; */
+    height: 100vh;
+
+}
+.wrapper table{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.wrapper caption{
+    font-size: 40px;
+}
+
+.wrapper thead{
+    background-color: orange;
+}
+
+.wrapper tr{
+    text-align: center;
+    height: 2.5rem;
+}
+
+.standing__row{
+    width: 4rem;
+
+}
+.team__col{
+    text-align: left;
+}
+.team__name{
+    text-align: left;
+    width: 40rem;
+}
+
+.rank1, .rank2 , .rank3, .rank4{
+    border-left: 3px solid blue;
+}
+.rank5{
+    border-left: 3px solid orange
+}
+.rank18,.rank19,.rank20{
+    border-left:3px solid red;
+}

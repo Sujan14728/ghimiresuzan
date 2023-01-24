@@ -1,0 +1,70 @@
+.container{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  border: 1px solid black;
+  width: 90%;
+  height: 90vh;
+  display: flex;
+}
+
+.wrapper__left{
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.intro{
+  border: 1px solid black;
+  font-size: 40px;
+}
+.intro span{
+  color: orange;
+}
+.desc{
+  border: 1px solid black;
+  font-size: 30px;
+  padding: 10px 10px 10px 0px;
+}
+
+.desc span{
+  color: orange;
+}
+
+.about__btn button{
+  width: 10rem;
+  height: 5rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  cursor: pointer;
+}
+.social__links{
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.social__links div{
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+
+.wrapper__right{
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
