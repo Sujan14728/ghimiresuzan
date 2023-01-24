@@ -5,8 +5,6 @@ import styles from "@/styles/Home.module.css";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   useEffect(() => {
     const type1 = new Typed(".auto-type", {
@@ -108,6 +106,7 @@ export default function Home() {
                 objectPosition: "55%",
               }}
               src="/images/boss-baby.jfif"
+              alt="boss-baby"
               width={500}
               height={500}
             />
