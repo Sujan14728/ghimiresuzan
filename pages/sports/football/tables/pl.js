@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 
 const url = "https://standings.vercel.app/api/pl-table";
 
-const pl = () => {
-  const [data, setData] = useState([{}]);
+const Pl = () => {
+  const [data, setData] = useState([]);
   const fetchApi = async () => {
     const result = await axios.get(url);
     setData(result.data);
@@ -13,7 +13,9 @@ const pl = () => {
 
   console.log(data);
 
-  fetchApi();
+  useEffect(() => {
+    fetchApi();
+  }, []);
 
   return (
     <div className={styles.container}>
@@ -56,4 +58,4 @@ const pl = () => {
   );
 };
 
-export default pl;
+export default Pl;
