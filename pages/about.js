@@ -1,6 +1,6 @@
 import styles from "@/styles/About.module.css";
-const about = () => {
+const About = () => {
   return <div className={styles.container}>about</div>;
 };
 
-export default about;
+export default About;

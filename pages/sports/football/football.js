@@ -1,5 +1,5 @@
-const football = () => {
+const Football = () => {
   return <div>football</div>;
 };
 
-export default football;
+export default Football;
