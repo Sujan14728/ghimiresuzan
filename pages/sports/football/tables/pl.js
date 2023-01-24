@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const url = "https://standings.vercel.app/api/pl-table";
 
 const pl = () => {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState([{}]);
   const fetchApi = async () => {
     const result = await axios.get(url);
     setData(result.data);
