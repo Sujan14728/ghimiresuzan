@@ -13,9 +13,7 @@ const pl = () => {
 
   console.log(data);
 
-  useEffect(() => {
-    fetchApi();
-  }, []);
+  fetchApi();
 
   return (
     <div className={styles.container}>
