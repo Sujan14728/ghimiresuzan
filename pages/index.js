@@ -42,12 +42,12 @@ export default function Home() {
             <div className={styles.intro}>
               <h1>Hi There,</h1>
               <h1>
-                I'm <span className="auto-type"></span>{" "}
+                I'm <span className="auto-type"></span>
               </h1>
             </div>
             <div className={styles.desc}>
               <p>
-                I Am Into <span className="auto-type2"></span>{" "}
+                I Am Into <span className="auto-type2"></span>
               </p>
             </div>
             <div className={styles.about__btn}>
