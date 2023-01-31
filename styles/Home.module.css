@@ -6,7 +6,7 @@
 }
 
 .wrapper{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 90%;
   height: 90vh;
   display: flex;
@@ -14,7 +14,7 @@
 
 .wrapper__left{
   flex: 1;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,14 +22,14 @@
 }
 
 .intro{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   font-size: 40px;
 }
 .intro span{
   color: orange;
 }
 .desc{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   font-size: 30px;
   padding: 10px 10px 10px 0px;
 }
@@ -63,7 +63,7 @@
 
 .wrapper__right{
   flex: 1;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;

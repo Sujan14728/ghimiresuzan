@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
+import Link from "next/link";
 
 export default function Home() {
   useEffect(() => {
@@ -57,48 +57,59 @@ export default function Home() {
             </div>
             <div className={styles.social__links}>
               <div>
-                <Image
-                  src="/images/social-icons/facebook.png"
-                  alt="facebook"
-                  width={40}
-                  height={40}
-                />
+                <Link href="https://www.facebook.com/amrit.ghimire.14/">
+                  <Image
+                    src="/images/social-icons/facebook.png"
+                    alt="facebook"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
               </div>
               <div>
-                <Image
-                  src="/images/social-icons/linkedin.png"
-                  alt="linkedin"
-                  width={40}
-                  height={40}
-                />
+                <Link href="https://www.linkedin.com/in/sujan-ghimire-9a8ab7237/">
+                  <Image
+                    src="/images/social-icons/linkedin.png"
+                    alt="linkedin"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
               </div>
               <div>
-                <Image
-                  src="/images/social-icons/twitter.png"
-                  alt="twitter"
-                  width={40}
-                  height={40}
-                />
+                <Link href="/">
+                  <Image
+                    src="/images/social-icons/twitter.png"
+                    alt="twitter"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
               </div>
               <div>
-                <Image
-                  src="/images/social-icons/github.png"
-                  alt="github"
-                  width={40}
-                  height={40}
-                />
+                <Link href="https://github.com/Sujan14728">
+                  <Image
+                    src="/images/social-icons/github.png"
+                    alt="github"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
               </div>
               <div>
-                <Image
-                  src="/images/social-icons/instagram.png"
-                  alt="instagram"
-                  width={40}
-                  height={40}
-                />
+                <Link href="https://www.instagram.com/ghimire7625/">
+                  <Image
+                    src="/images/social-icons/instagram.png"
+                    alt="instagram"
+                    width={40}
+                    height={40}
+                  />
+                </Link>
               </div>
             </div>
           </div>
           <div className={styles.wrapper__right}>
+            <Link href="/"></Link>
             <Image
               style={{
                 borderRadius: "50%",
